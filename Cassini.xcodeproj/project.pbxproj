@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F3B5D9CE1D3F24460061023C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5D9CD1D3F24460061023C /* AppDelegate.swift */; };
-		F3B5D9D01D3F24460061023C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5D9CF1D3F24460061023C /* ViewController.swift */; };
+		F3B5D9D01D3F24460061023C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5D9CF1D3F24460061023C /* ImageViewController.swift */; };
 		F3B5D9D31D3F24460061023C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B5D9D11D3F24460061023C /* Main.storyboard */; };
 		F3B5D9D51D3F24460061023C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B5D9D41D3F24460061023C /* Assets.xcassets */; };
 		F3B5D9D81D3F24460061023C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B5D9D61D3F24460061023C /* LaunchScreen.storyboard */; };
+		F3B5D9E11D3F3A9C0061023C /* DemoUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B5D9E01D3F3A9C0061023C /* DemoUrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3B5D9CA1D3F24460061023C /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B5D9CD1D3F24460061023C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3B5D9CF1D3F24460061023C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3B5D9CF1D3F24460061023C /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		F3B5D9D21D3F24460061023C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3B5D9D41D3F24460061023C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B5D9D71D3F24460061023C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3B5D9D91D3F24460061023C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B5D9E01D3F3A9C0061023C /* DemoUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoUrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		F3B5D9CC1D3F24460061023C /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				F3B5D9CD1D3F24460061023C /* AppDelegate.swift */,
-				F3B5D9CF1D3F24460061023C /* ViewController.swift */,
+				F3B5D9DF1D3F25720061023C /* Supporting */,
+				F3B5D9CF1D3F24460061023C /* ImageViewController.swift */,
 				F3B5D9D11D3F24460061023C /* Main.storyboard */,
-				F3B5D9D41D3F24460061023C /* Assets.xcassets */,
-				F3B5D9D61D3F24460061023C /* LaunchScreen.storyboard */,
 				F3B5D9D91D3F24460061023C /* Info.plist */,
+				F3B5D9E01D3F3A9C0061023C /* DemoUrl.swift */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		F3B5D9DF1D3F25720061023C /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				F3B5D9CD1D3F24460061023C /* AppDelegate.swift */,
+				F3B5D9D41D3F24460061023C /* Assets.xcassets */,
+				F3B5D9D61D3F24460061023C /* LaunchScreen.storyboard */,
+			);
+			name = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B5D9D01D3F24460061023C /* ViewController.swift in Sources */,
+				F3B5D9D01D3F24460061023C /* ImageViewController.swift in Sources */,
+				F3B5D9E11D3F3A9C0061023C /* DemoUrl.swift in Sources */,
 				F3B5D9CE1D3F24460061023C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
